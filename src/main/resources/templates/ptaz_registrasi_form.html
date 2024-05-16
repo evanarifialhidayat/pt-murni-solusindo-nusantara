@@ -99,21 +99,56 @@
 										
 										
 											<div class="form-group m-form__group row">
-												<div class="col-lg-4">
-													<label>Name:</label>
-													<input type="text" th:name="nama" class="form-control m-input" placeholder="Enter nama">
-													<span class="m-form__help">Please enter your name</span>
-												</div>
+												
 												<div class="col-lg-4">
 													<label class="">Email:</label>
 													<input type="email" th:name="email" class="form-control m-input" placeholder="Enter email">
 													<span class="m-form__help">Please enter your email</span>
 												</div>
 												<div class="col-lg-4">
-													<label>Kata sandi:</label>
-													<input type="katasandi" th:name="katasandi" class="form-control m-input" id="exampleInputPassword1" placeholder="Enter katasandi">
-													<span class="m-form__help">Please enter your katasandi</span>
+													<label>Password:</label>
+													<input type="password" th:name="password" class="form-control m-input" id="exampleInputPassword1" placeholder="Enter katasandi">
+													<span class="m-form__help">Please enter your password</span>
 												</div>
+												<!-- <div class="col-lg-4">
+													<label>Email:</label>
+													<input th:name="age" type="number" class="form-control m-input" 
+													min="18"
+													value="18"
+													placeholder="Enter age">
+													<span class="m-form__help">Please enter your age</span>
+												</div> -->
+												
+												<div class="col-lg-4">
+															<label >Age</label>
+																<select class="form-control m-input" th:name="age">
+																	<option>18</option>
+																	<option>19</option>
+																	<option>20</option>
+																	<option>21</option>
+																	<option>22</option>
+																	<option>23</option>
+																	<option>24</option>
+																	<option>25</option>
+																	<option>26</option>
+																	<option>27</option>
+																	<option>28</option>
+																	<option>29</option>
+																	<option>30</option>
+																	<option>31</option>
+																	<option>32</option>
+																	<option>33</option>
+																	<option>34</option>
+																	<option>35</option>
+																	<option>36</option>
+																	<option>37</option>
+																	<option>38</option>
+																	<option>39</option>
+																	<option>40</option>
+																	
+																</select>
+																<span class="m-form__help">Please select age</span>
+														</div>
 											</div>										
 											
 										</div>

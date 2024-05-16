@@ -9,11 +9,11 @@
 	<relativePath/>
 </parent>
 <groupId>com.app</groupId>
-<artifactId>ptaz</artifactId>
+<artifactId>pt-murni-solusindo-nusantara</artifactId>
 <version>0.0.1</version>
 <packaging>jar</packaging>
-<name>ptaz</name>
-<description>Interview PT Duaz Solusi</description>
+<name>pt-murni-solusindo-nusantara</name>
+<description>Interview PT Murni Solusindi Nusantara</description>
 <properties>
 		<java.version>21</java.version>
 </properties>
