@@ -52,7 +52,7 @@
 					<div class="m-subheader ">
 						<div class="d-flex align-items-center">
 							<div class="mr-auto">
-								<h3 class="m-subheader__title m-subheader__title--separator">User List</h3>
+								<h3 class="m-subheader__title m-subheader__title--separator">Avvarage List</h3>
 								<ul class="m-subheader__breadcrumbs m-nav m-nav--inline">
 									<li class="m-nav__item m-nav__item--home">
 										<a href="#" class="m-nav__link m-nav__link--icon">
@@ -68,7 +68,7 @@
 									<li class="m-nav__separator">-</li>
 									<li class="m-nav__item">
 										<a href="#" class="m-nav__link">
-											<span class="m-nav__link-text">User list</span>
+											<span class="m-nav__link-text">Avvarage list</span>
 										</a>
 									</li>
 								</ul>
@@ -96,7 +96,7 @@
 								</div>	 -->						
 								<div class="row" style="margin-bottom: 0px;"> 
                                     <div class="col-sm-12" >
-                                        <div id="grid" style="width: 100%; height: 400px; overflow: hidden;"></div>
+                                        <div id="grid" style="width: 100%; height: 450px; overflow: hidden;"></div>
                                     </div>
                                 </div>
                                 
@@ -104,98 +104,6 @@
 						</div>
 					</div>
 				</div>
-				
-				
-				
-				
-					<div class="modal fade" id="m_modal_4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog modal-lg" role="document">
-								<div class="modal-content">
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel">Update data user</h5>
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											<span aria-hidden="true">&times;</span>
-										</button>
-									</div>
-									<form class="m-form m-form--fit m-form--label-align-right m-form--group-seperator-dashed" th:action="@{/user/update}"   id="frm" name="frm" method="post">
-										<div class="m-portlet__body">
-										
-										    <input type="hidden" th:name="id_seq" id="id_seq" class="form-control m-input" placeholder="Enter nama">
-										
-											<div class="form-group m-form__group row">
-												<!-- <div class="col-lg-4">
-													<label>Nama:</label>
-													<input type="text" th:name="age"  id="age" class="form-control m-input" placeholder="Enter age">
-													<span class="m-form__help">Please enter your age</span>
-												</div> -->
-												<div class="col-lg-4">
-													<label class="">Email:</label>
-													<input type="text" th:name="email"  id="email" class="form-control m-input" placeholder="Enter email">
-													<span class="m-form__help">Please enter your email</span>
-												</div>
-												<div class="col-lg-4">
-													<label class="">Password:</label>
-													<input type="password" th:name="password"  id="password" class="form-control m-input" placeholder="Enter password">
-													<span class="m-form__help">Please enter your password</span>
-												</div>
-												<div class="col-lg-4">
-															<label >Age</label>
-																<select class="form-control m-input" th:name="age"  id="age">
-																	<option>18</option>
-																	<option>19</option>
-																	<option>20</option>
-																	<option>21</option>
-																	<option>22</option>
-																	<option>23</option>
-																	<option>24</option>
-																	<option>25</option>
-																	<option>26</option>
-																	<option>27</option>
-																	<option>28</option>
-																	<option>29</option>
-																	<option>30</option>
-																	<option>31</option>
-																	<option>32</option>
-																	<option>33</option>
-																	<option>34</option>
-																	<option>35</option>
-																	<option>36</option>
-																	<option>37</option>
-																	<option>38</option>
-																	<option>39</option>
-																	<option>40</option>
-																	
-																</select>
-																<span class="m-form__help">Please select age</span>
-														</div>
-											</div>
-											
-										</div>
-										
-										
-										
-										<div class="m-portlet__foot m-portlet__no-border m-portlet__foot--fit">
-											<div class="m-form__actions m-form__actions--solid" style="background-color: white;">
-												<div class="row">
-													<div class="col-lg-4"></div>
-													<div class="col-lg-12">
-														<button type="submit" class="btn btn-success m-btn m-btn--custom">Submit</button>
-														<button type="reset" class="btn btn-danger m-btn m-btn--custom">Cancel</button>
-													</div>
-												</div>
-											</div>
-										</div>
-										
-										
-									</form>
-								</div>
-							</div>
-						</div>
-				
-				
-				
-				
-				
 				
 				
 				
@@ -217,13 +125,10 @@
 		
 		<script type="text/javascript" th:src="@{/ui/w2ui-1.5.min.js}"></script>
 		<script type="text/javascript" th:inline="javascript">		
-		 var message = [[${arr}]];
-		    console.log(message);
-
 				   $('#grid').w2grid({ 
 							name: 'grid', 
 							// header: 'List of Panduan',
-							total: 10,
+							total: 15,
 							
 							show: {
 							//	 header         : true,
@@ -234,23 +139,25 @@
 							//	expandColumn   : true
 							},  
 							columns: [       
-								{ field: 'age', caption: 'Age', size: '15%' },
-								{ field: 'email', caption: 'Email', size: '40%' },
-								{ field: 'password', caption: 'password', size: '100%' },
-								{ field: 'id_seq', caption: 'id_db', size: '120%' }
+								{ field: 'name', caption: 'Name', size: '30%' }, 
+								{ field: 'score', caption: 'Score', size: '15%' },
+								{ field: 'emotion', caption: 'Emotion', size: '30%' },
+								{ field: 'created_string', caption: 'Created', size: '30%' },
+								{ field: 'id', caption: 'id_db', size: '120%' } 
 							],
-							searches: [
+							 searches: [
 								{ type: 'int',  field: 'recid', caption: 'ID' },
-								{ type: 'int', field: 'age', caption: 'Age' },
-								{ type: 'text', field: 'email', caption: 'Email' },
-								{ type: 'text', field: 'password', caption: 'password' },
-								{ type: 'text', field: 'id_seq', caption: 'id_db' }
-							],
-							menu: [
+								{ type: 'text', field: 'name', caption: 'Name' },
+								{ type: 'int', field: 'score', caption: 'Score' },
+								{ type: 'text', field: 'emotion', caption: 'password' },
+								{ type: 'text', field: 'created_string', caption: 'created_string' },
+								{ type: 'int', field: 'id', caption: 'id_db' }
+							], 
+							/* menu: [
 							    { id: 1, text: 'View User', icon: 'fa fa-list'}, 
 								{ id: 2, text: 'Delete Record', icon: 'fa fa-minus'}
 							],
-							onMenuClick: function(event) {		
+							/* onMenuClick: function(event) {		
 							    var menuid = event.menuItem.id;
 								var sel = this.getSelection();
 								var sel_record = this.get(sel[0]);
@@ -259,7 +166,7 @@
 								}else if(menuid == 2){
 									window.location.href=[[@{/user/delete}]]+'?id='+sel_record.id_seq;
 								}
-							}
+							} */
 							// ,onDblClick: function(event) {
 							// 		var grid = this;
 							// 		event.onComplete = function() {
@@ -281,15 +188,15 @@
 					// 		{ "recid": 2, "snama": "Stuart2", "snomor": "Motzart", "sjudul": "jdoe@gmail.com3", "slembaga":"ptkps","stanggal": "4/3/2012","ssertifikat":'' }
 					// ]);
 
-						w2ui['grid'].hideColumn('sradio','id_seq');
-						function openPopup(id,password,email,age) {				
+						w2ui['grid'].hideColumn('sradio','id');
+						/* 	function openPopup(id,password,email,age) {				
 							$("#id_seq").val(id);
 							$("#email").val(""+email);
 							$("#password").val(""+password); 
 							$("#age").val (""+age);
 							$('#m_modal_4').modal('show');
 							
-			/* 				w2popup.open({
+							w2popup.open({
 										title: 'Biodata',
 										width: 720,
 										height: 410,
@@ -315,8 +222,8 @@
 										$('#w2ui-popup #main').w2render('layout')
 										w2ui.layout.html('left', w2ui.sidebar)
 										w2ui.layout.html('main', w2ui.grid)
-									})  */
-							}
+									})  
+							}  */
 			</script>
 	</body>
     

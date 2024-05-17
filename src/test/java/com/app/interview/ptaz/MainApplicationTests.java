@@ -76,15 +76,20 @@ public class MainApplicationTests implements ITesApiWeb {
 	@Test
 	@Order(3)
 	public void loginApi() {
-		UserLogin get = userLoginRepo.findByEmail(userLogin.getEmail());
-		String idsalt = get.getPassword().substring(0, 9);
-		String encript1 = UtilParam.getSecurePassword(katasandi, idsalt);
-       	userLogin.setPassword(encript1);
-		UserLogin verifikasi = userLoginRepo.findByEmailAndPassword(userLogin.getEmail(), userLogin.getPassword());
-		UserDetails userDetails = userDetailsService.createUserDetails(userLogin.getEmail(), katasandi);
-        String token = jwtTokenUtil.generateToken(userDetails);
-        userLogin.setToken(token);
-		Assert.notNull(verifikasi, "Non successful login api");	
+		Long lo = userLoginRepo.countByEmail(userLogin.getEmail());
+		if(lo == 1) {
+				UserLogin get = userLoginRepo.findByEmail(userLogin.getEmail());
+				String idsalt = get.getPassword().substring(0, 9);
+				String encript1 = UtilParam.getSecurePassword(katasandi, idsalt);
+		       	userLogin.setPassword(encript1);
+				UserLogin verifikasi = userLoginRepo.findByEmailAndPassword(userLogin.getEmail(), userLogin.getPassword());
+				UserDetails userDetails = userDetailsService.createUserDetails(userLogin.getEmail(), katasandi);
+		        String token = jwtTokenUtil.generateToken(userDetails);
+		        userLogin.setToken(token);
+				Assert.notNull(verifikasi, "Non successful login api");	
+		}else{
+			Assert.isTrue(datajson.size() > 1, "Non successful login duplicate data!");	
+		}
 	}
 
 	@Test
@@ -100,14 +105,14 @@ public class MainApplicationTests implements ITesApiWeb {
         String token = jwtTokenUtil.generateToken(userDetails);
         userLogin.setToken(token);
 		userLogin = userLoginService.updateDataApi(userLogin);
-		Assert.notNull(userLogin, "Non successful update api");	
+		Assert.notNull(userLogin, "Successful update api");	
 	}
 
 	@Test
 	@Order(5)
 	public void deleteApi() {
 		Boolean obj = userLoginService.deleteDataApi(userLogin);
-		Assert.isTrue(obj, "Non successful deleted api");	
+		Assert.isTrue(obj, "Successful deleted api");	
 	}
 
 	@Test

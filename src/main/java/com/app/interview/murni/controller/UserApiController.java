@@ -3,7 +3,8 @@ package com.app.interview.murni.controller;
 import java.util.HashMap;
 import java.util.Map;
 
-import org.springframework.beans.factory.annotation.Autowired;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -22,10 +23,15 @@ import org.springframework.web.bind.annotation.RestController;
 import com.app.interview.murni.model.UserLogin;
 import com.app.interview.murni.model.res.ModelJson;
 import com.app.interview.murni.util.ParamPath;
+import com.app.interview.murni.util.UtilParam;
 import com.app.interview.murni.util.UtilReturn;
 
+import lombok.extern.log4j.Log4j2;
+
 @RestController
+@Log4j2
 public class UserApiController {
+	private static final Logger LOG = LogManager.getLogger(UserApiController.class);
 	
     @GetMapping(value = ParamPath.PATH_API_INTERVIEW_MURNI_LIST)
     public ResponseEntity<ModelJson> listitem(){	    
@@ -51,6 +57,10 @@ public class UserApiController {
     public ResponseEntity<?> deleteitem(@PathVariable Integer id){	 
     	return UtilReturn.returncontroller(ParamPath.RETURN_DELETE, null, id);
     }
+    @GetMapping(value = ParamPath.PATH_API_INTERVIEW_MURNI_LIST_EXAMPLE)
+    public ResponseEntity<ModelJson> listexample(){	    
+    	return (ResponseEntity<ModelJson>) UtilReturn.returncontroller(ParamPath.RETURN_LIST_EXAMPLE, null, null);
+    }
 
     
     @ResponseStatus(HttpStatus.BAD_REQUEST)
@@ -66,7 +76,7 @@ public class UserApiController {
         result.setResult(true);
     	result.setErrors("ERORR VALIDATION");
     	result.setList(param);
-    	
+    	LOG.error("Silahkan patuhi validasi data api gagal...",result.toString()); 
     	return ResponseEntity.status(HttpStatus.OK).contentType(MediaType.APPLICATION_JSON).body(result);
     }
 }

@@ -48,19 +48,19 @@
 								<a href="#"> <img th:src="@{/ui/metronic_v5/assets/app/media/img/logos/murni.svg}" style="width: 70%">
 								</a>
 							</div>
+							
 							<div><span id="messsage"    th:text="${message}" style="color: red; font-size: medium; width: 100%; text-align: center;"></span></div>
+							
 							<div class="m-login__signin">
 								<br/>
 								
 								
 								<form class="m-login__form m-form" th:action="@{/home}"  id="frm" name="frm" method="post">								
 									<div class="form-group m-form__group">
-										<input class="form-control m-input" 
-										style="text-align: center;"	type="email" placeholder="Email" name="email" autocomplete="off">
+										<input class="form-control m-input" style="text-align: center;"	type="email" placeholder="Email" name="email" autocomplete="off">
 									</div>
 									<div class="form-group m-form__group">
-										<input class="form-control m-input m-login__form-input--last"	style="text-align: center;"
-											type="password" placeholder="Password" name="password">
+										<input class="form-control m-input m-login__form-input--last"	style="text-align: center ;" type="password" placeholder="Password" name="password">
 									</div>
 								
 									<div class="row m-login__form-sub">
@@ -69,7 +69,7 @@
 									
 										</div>
 										<div class="col m--align-right">
-											<button 	type="button" th:onclick="|window.location.href='/user/list'|"  style="width: 10em;"  class="btn m-btn--pill    btn-info m-btn--wide">View data</button>
+											<button 	type="button" th:onclick="|window.location.href='/list/view'|"  style="width: 10em;"  class="btn m-btn--pill    btn-info m-btn--wide">View data</button>
 										</div>
 									</div>
 								</form>
@@ -78,7 +78,7 @@
 								<div class="m-login__head">
 									<h3 class="m-login__title">Registrasi</h3>
 								</div>
-								<form class="m-login__form m-form" th:action="@{/user/save}"  id="frm" name="frm" method="post">
+								<form class="m-login__form m-form" th:action="@{/user/registrasi}"  id="frm" name="frm" method="post">
 									
 									<div class="form-group m-form__group">
 										<input class="form-control m-input" type="text"	style="text-align: center"	placeholder="Please input email" name="email" autocomplete="off"/>

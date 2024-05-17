@@ -12,4 +12,6 @@ import com.app.interview.murni.model.UserLogin;
 public interface UserLoginRepo extends DataTablesRepository<UserLogin, Long> {
 	UserLogin findByEmail(String Email);
 	UserLogin findByEmailAndPassword(String Email,String Password);
+	long countByEmail(String Email);
+	
 }

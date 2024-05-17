@@ -1,7 +1,13 @@
 package com.app.interview.murni.util;
 
+import java.io.PrintWriter;
+import java.io.StringWriter;
 import java.security.MessageDigest;
 import java.security.NoSuchAlgorithmException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Random;
@@ -44,6 +50,11 @@ public class UtilParam {
 			result.setResult(false);
 	    	result.setErrors("EXCEPTION ON TRY CATCH");
 	    	result.setList(map);    
+    	}else if(param.equals(ParamPath.VALIDATION_DUPLICATE)) {
+    		map.put("status", "ERORR");  
+			result.setResult(false);
+	    	result.setErrors("DUPLICATE DATA");
+	    	result.setList(map);    
     	}else{
     		map.put("status", "ERORR");  
     		result.setResult(false);
@@ -77,6 +88,25 @@ public class UtilParam {
 		    } 		
 		    return roomId;
 	}
+    
+    public static String printStack(Exception e) {
+    	StringWriter errors = new StringWriter();
+    	e.printStackTrace(new PrintWriter(errors));
+    	
+    	return errors.toString();
+    }
+    public static Calendar convStringDate(String str){
+    	Date date = null;
+    	Calendar cal = Calendar.getInstance();
+		try {
+			SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
+			date = sdf.parse(str);
+			cal.setTime(date);
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+		return cal;
+    }
     
     
     
