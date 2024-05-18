@@ -6,6 +6,7 @@ import java.util.Calendar;
 import java.util.Date;
 
 import javax.persistence.Column;
+import javax.persistence.Convert;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -36,7 +37,39 @@ public class ListAvarageMeanModus {
 		this.created = created;
 	}
 
-    public ListAvarageMeanModus(){}
+    public ListAvarageMeanModus(String name,Double avg) {
+		super();
+		this.avg = avg;
+		this.name = name;
+	}
+
+    public ListAvarageMeanModus(Integer no,String name,String created_string,Double avg) {
+		super();
+		this.avg = avg;
+		this.name = name;
+		this.created_string = created_string;
+		this.no = no;
+	}
+    
+    public ListAvarageMeanModus(Integer no,String created_string,String name,String emotion) {
+		super();
+		this.no = no;
+		this.created_string = created_string;
+		this.name = name;
+		this.emotion = emotion;
+	}
+    
+    
+    public ListAvarageMeanModus(String name,String emotion,Integer rnk) {
+		super();
+		this.name = name;
+		this.emotion = emotion;
+		this.rnk = rnk;
+	}
+
+
+
+	public ListAvarageMeanModus(){}
 
 
 	@Id
@@ -66,16 +99,41 @@ public class ListAvarageMeanModus {
     private String created_string;
     
     @Transient
-    private BigInteger avg;
+    private Double avg;
     
+    @Transient
+    private Integer rnk;
+    
+    @Transient
+    private Integer no;
     
     
 
-	public BigInteger getAvg() {
+	public Integer getNo() {
+		return no;
+	}
+
+	public void setNo(Integer no) {
+		this.no = no;
+	}
+
+	public Integer getRnk() {
+		return rnk;
+	}
+
+
+
+	public void setRnk(Integer rnk) {
+		this.rnk = rnk;
+	}
+
+
+
+	public Double getAvg() {
 		return avg;
 	}
 
-	public void setAvg(BigInteger avg) {
+	public void setAvg(Double avg) {
 		this.avg = avg;
 	}
 

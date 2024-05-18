@@ -49,4 +49,10 @@ public class ListAvarageMeanModusImpl implements ListAvarageMeanModusService{
 		return obj;
 	}
 
+	@Override
+	public List<ListAvarageMeanModus> getAllAvarageScore() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

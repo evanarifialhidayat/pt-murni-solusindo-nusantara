@@ -187,45 +187,47 @@ public class UtilReturn {
     	    	LOG.info("List api data suksess..."+datajson.toString());
         	}
         	return ResponseEntity.status(HttpStatus.OK).contentType(MediaType.APPLICATION_JSON).body(res);
-    	}else if(logik.equals(ParamPath.RETURN_LIST_EXAMPLE)) {
-    		datajson = new ArrayList(); 
-        	ModelJson res = new ModelJson();
-        	Iterable<ListAvarageMeanModus> iterable =  avarageMeanModusRepo.findAll();
-        	if(iterable.hashCode() != 10) {
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",80,"Happy",UtilParam.convStringDate("2020-02-20")));      //  1
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",90,"Sad",   UtilParam.convStringDate("2020-02-20")));       // 2
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",85,"Happy",UtilParam.convStringDate("2020-02-20")));      //  3
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",75,"Sad",  UtilParam.convStringDate("2020-02-20")));      //  4
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",65,"Angry", UtilParam.convStringDate("2020-02-20")));       // 5
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",85,"Happy",UtilParam.convStringDate("2020-02-21")));      //  6
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",90,"Sad",   UtilParam.convStringDate("2020-02-21")));       // 7
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",75,"Sad",  UtilParam.convStringDate("2020-02-21")));      //  8
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",85,"Sad",   UtilParam.convStringDate("2020-02-21")));      //  9
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",70,"Happy", UtilParam.convStringDate("2020-02-21")));      //  0
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",80,"Sad",  UtilParam.convStringDate("2020-02-21")));      //  11
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",73,"Sad",  UtilParam.convStringDate("2020-02-22")));      //  12
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",75,"Angry",UtilParam.convStringDate("2020-02-22")));      //  13
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",82,"Sad",  UtilParam.convStringDate("2020-02-22")));      //  14
-				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",65,"Sad",  UtilParam.convStringDate("2020-02-22")));      // 15
-        	}
-        	for(ListAvarageMeanModus i : avarageMeanModusRepo.findAll()) {
-        		//UserDetails userDetails = userDetailsService.loadUserByUsername(bodyparam.getEmail());
-        	    datajson.add(i);
-        	}
-        	
-        	if(datajson == null) {
-        		res.setResult(false);
-    	    	res.setErrors("404");
-    	    	res.setList(datajson);
-    	    	LOG.error("List avarage score api data gagal..."+datajson.toString());
-        	}else {
-        		res.setResult(true);
-    	    	res.setErrors("SUCCESS");
-    	    	res.setList(datajson);
-    	    	LOG.info("List avarage score data suksess..."+datajson.toString());
-        	}
-        	return ResponseEntity.status(HttpStatus.OK).contentType(MediaType.APPLICATION_JSON).body(res);
-    	}else{
+    	}
+//    	else if(logik.equals(ParamPath.RETURN_LIST_EXAMPLE)) {
+//    		datajson = new ArrayList(); 
+//        	ModelJson res = new ModelJson();
+//        	Iterable<ListAvarageMeanModus> iterable =  avarageMeanModusRepo.findAll();
+//        	if(iterable.hashCode() != 10) {
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",80,"Happy",UtilParam.convStringDate("2020-02-20")));      //  1
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",90,"Sad",   UtilParam.convStringDate("2020-02-20")));       // 2
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",85,"Happy",UtilParam.convStringDate("2020-02-20")));      //  3
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",75,"Sad",  UtilParam.convStringDate("2020-02-20")));      //  4
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",65,"Angry", UtilParam.convStringDate("2020-02-20")));       // 5
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",85,"Happy",UtilParam.convStringDate("2020-02-21")));      //  6
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",90,"Sad",   UtilParam.convStringDate("2020-02-21")));       // 7
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",75,"Sad",  UtilParam.convStringDate("2020-02-21")));      //  8
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",85,"Sad",   UtilParam.convStringDate("2020-02-21")));      //  9
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Josh",70,"Happy", UtilParam.convStringDate("2020-02-21")));      //  0
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",80,"Sad",  UtilParam.convStringDate("2020-02-21")));      //  11
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",73,"Sad",  UtilParam.convStringDate("2020-02-22")));      //  12
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("Kevin",75,"Angry",UtilParam.convStringDate("2020-02-22")));      //  13
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",82,"Sad",  UtilParam.convStringDate("2020-02-22")));      //  14
+//				avarageMeanModusService.insertData(new ListAvarageMeanModus("David",65,"Sad",  UtilParam.convStringDate("2020-02-22")));      // 15
+//        	}
+//        	for(ListAvarageMeanModus i : avarageMeanModusRepo.findAll()) {
+//        		//UserDetails userDetails = userDetailsService.loadUserByUsername(bodyparam.getEmail());
+//        	    datajson.add(i);
+//        	}
+//        	
+//        	if(datajson == null) {
+//        		res.setResult(false);
+//    	    	res.setErrors("404");
+//    	    	res.setList(datajson);
+//    	    	LOG.error("List avarage score api data gagal..."+datajson.toString());
+//        	}else {
+//        		res.setResult(true);
+//    	    	res.setErrors("SUCCESS");
+//    	    	res.setList(datajson);
+//    	    	LOG.info("List avarage score data suksess..."+datajson.toString());
+//        	}
+//        	return ResponseEntity.status(HttpStatus.OK).contentType(MediaType.APPLICATION_JSON).body(res);
+//    	}
+    	else{
     		LOG.error("Path belum tersedia tunggu ya...");
     		return ResponseEntity.status(HttpStatus.OK).contentType(MediaType.APPLICATION_JSON).body(UtilParam.mappingdata(ParamPath.VALIDATION_TRY, null));
     	}

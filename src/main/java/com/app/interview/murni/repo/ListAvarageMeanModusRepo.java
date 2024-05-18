@@ -16,7 +16,22 @@ public interface ListAvarageMeanModusRepo extends DataTablesRepository<ListAvara
 	@Query("SELECT e FROM ListAvarageMeanModus e ") 
 	List<ListAvarageMeanModus> findAllData();
 	
-	@Query("SELECT avg(e.score) FROM ListAvarageMeanModus e GROUP BY e.name ") 
+	@Query("SELECT new com.app.interview.murni.model.ListAvarageMeanModus(e.name , avg(e.score)) FROM ListAvarageMeanModus e GROUP BY e.name ") 
 	List<ListAvarageMeanModus> findAllAvarageScore();
+	
+	@Query(nativeQuery = true, value = "WITH x AS (select name,emotion,count(*) as cnt from public.avgmeanmodus group by emotion,name),	 "
+			+ "y AS (select name,emotion,cnt,RANK() OVER(ORDER BY cnt DESC) as rnk	from x)  "
+			+ "select name , emotion , rnk from y where rnk=1 ")
+	List<Object[]> findAllModusEmotion();
+	
+	
+	@Query(nativeQuery = true, value = "select name,created, round(avg(score),2) "
+			+ "from public.avgmeanmodus group by name,created ")
+	List<Object[]> findAllAvarageScoreNameTanggal();
+	
+	@Query(nativeQuery = true, value = "WITH x AS (select name,emotion,count(*) as cnt,created from public.avgmeanmodus group by emotion,name,created), "
+			+ "y AS (select name,emotion,cnt,created,RANK() OVER(ORDER BY cnt DESC) as rnk	from x)  "
+			+ "select created,name , emotion , rnk from y where rnk=1 ")
+	List<Object[]> findAllModusEmotionNameTanggal();
 	
 }

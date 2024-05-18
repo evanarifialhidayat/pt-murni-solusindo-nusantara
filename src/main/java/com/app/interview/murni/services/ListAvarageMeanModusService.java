@@ -9,4 +9,5 @@ public interface ListAvarageMeanModusService {
     List findAllModusEmotion();
     List findAllWhereTanggalYangSama();
     ListAvarageMeanModus insertData(ListAvarageMeanModus gate);
+    List<ListAvarageMeanModus> getAllAvarageScore();
 }

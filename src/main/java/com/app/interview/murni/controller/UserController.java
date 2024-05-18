@@ -171,10 +171,40 @@ public class UserController {
             LOG.info("List avarage score data sukses selamat menikmati..."+listParam.toString());
             
             
-//            List listParam2 = (List<ListAvarageMeanModus>) avarageMeanModusRepo.findAllAvarageScore();
+            List listParam2 = (List<ListAvarageMeanModus>) avarageMeanModusRepo.findAllAvarageScore();
+            Map<String, String> mapavarage = new HashMap<>();
+    		model.addAttribute("total_avarage", ""+listParam2.size());
+    		ListAvarageMeanModus avarage;
+    		for(int i=0; i<listParam2.size(); i++){
+    			avarage = (ListAvarageMeanModus) listParam2.get(i);
+    			model.addAttribute("avgname"+i, ""+avarage.getName()+" - "+avarage.getAvg());
+    		}
+    		
             
-            
-//            System.out.println("=---------------"+listParam2.size());
+    		List<Object[]> listParam4 = avarageMeanModusRepo.findAllAvarageScoreNameTanggal();
+    		List listavaragescorenametanggal = new ArrayList<ListAvarageMeanModus>();
+    		for(int i=0; i<listParam4.size(); i++){
+    			listavaragescorenametanggal.add(new ListAvarageMeanModus(
+    					i+1,
+    					listParam4.get(i)[0].toString(),
+    					listParam4.get(i)[1].toString(),
+    					Double.parseDouble(""+listParam4.get(i)[2]
+    							)));
+    		}
+			model.addAttribute("listavaragescorenametanggal",listavaragescorenametanggal);
+			
+			List<Object[]> listParam5 = avarageMeanModusRepo.findAllModusEmotionNameTanggal();
+    		List listmodusemotionnametanggal = new ArrayList<ListAvarageMeanModus>();
+    		for(int i=0; i<listParam5.size(); i++){
+    			listmodusemotionnametanggal.add(new ListAvarageMeanModus(
+    					i+1,
+    					listParam5.get(i)[0].toString(),
+    					listParam5.get(i)[1].toString(),
+    					listParam5.get(i)[2].toString()
+    					));
+    		}
+			model.addAttribute("listmodusemotionnametanggal",listmodusemotionnametanggal);
+    		
             
             
 	    	return "ptaz_avarage_score";

@@ -63,7 +63,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     	
     	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.POST,   "/api/registrasi").permitAll();
     	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.GET,    "/api/list").permitAll();
-    	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.GET,    "/api/example").permitAll();
+//    	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.GET,    "/api/example").permitAll();
     	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.POST,   "/api/login").permitAll();
     	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.POST,   "/home").permitAll();
     	httpSecurity.csrf().disable().authorizeRequests().antMatchers(HttpMethod.POST,   "/user/registrasi").permitAll();

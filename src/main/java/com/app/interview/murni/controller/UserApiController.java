@@ -57,10 +57,10 @@ public class UserApiController {
     public ResponseEntity<?> deleteitem(@PathVariable Integer id){	 
     	return UtilReturn.returncontroller(ParamPath.RETURN_DELETE, null, id);
     }
-    @GetMapping(value = ParamPath.PATH_API_INTERVIEW_MURNI_LIST_EXAMPLE)
-    public ResponseEntity<ModelJson> listexample(){	    
-    	return (ResponseEntity<ModelJson>) UtilReturn.returncontroller(ParamPath.RETURN_LIST_EXAMPLE, null, null);
-    }
+//    @GetMapping(value = ParamPath.PATH_API_INTERVIEW_MURNI_LIST_EXAMPLE)
+//    public ResponseEntity<ModelJson> listexample(){	    
+//    	return (ResponseEntity<ModelJson>) UtilReturn.returncontroller(ParamPath.RETURN_LIST_EXAMPLE, null, null);
+//    }
 
     
     @ResponseStatus(HttpStatus.BAD_REQUEST)
