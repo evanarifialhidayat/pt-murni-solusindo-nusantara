@@ -4,18 +4,23 @@
 
 ## Website
 
-Link : http://203.194.113.181:7000
+Link : http://e-van.cloud:7000
 
-<a href="https://awesome-github-readme-profile.netlify.app"><img src="https://raw.githubusercontent.com/elangosundar/awesome-README-templates/master/awesome-github-profile.png" alt="Awesome README Templates" /></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/dashboard.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/dashboard.png?raw=true"/></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/listapi.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/listapi.png?raw=true"/></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/loginapi.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/loginapi.png?raw=true"/></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/updateapi.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/updateapi.png?raw=true"/></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/registrasiapi.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/registrasiapi.png?raw=true"/></a>
+<a href="https://github.com/evanarifialhidayat/ptaz/blob/main/deleteapi.png?raw=true"><img src="https://github.com/evanarifialhidayat/ptaz/blob/main/deleteapi.png?raw=true"/></a>
 
 # API
 
-Link : http://203.194.113.181:7000
-- http://203.194.113.181:7000/api/list endpoint untuk registrasi pengguna (nama/email, kata sandi) /GET
-- http://203.194.113.181:7000/api/login endpoint untuk menerima data login (email, kata sandi) dan memverifikasi keberadaan pengguna di database /POST
-- http://203.194.113.181:7000/api/registrasi endpoint untuk mengambil daftar pengguna /POST
-- http://203.194.113.181:7000/api/update/{id} endpoint untuk mengupdate data pengguna /POST
-- http://203.194.113.181:7000/api/delete/{id} endpoint untuk menghapus data pengguna /DELETE
+Link : http://e-van.cloud:7000/api/
+- http://e-van.cloud:7000/api/list endpoint untuk registrasi pengguna (nama/email, kata sandi) /GET
+- http://e-van.cloud:7000/api/login endpoint untuk menerima data login (email, kata sandi) dan memverifikasi keberadaan pengguna di database /POST
+- http://e-van.cloud:7000/api/registrasi endpoint untuk mengambil daftar pengguna /POST
+- http://e-van.cloud:7000/api/update/{id} endpoint untuk mengupdate data pengguna /POST
+- http://e-van.cloud:7000/api/delete/{id} endpoint untuk menghapus data pengguna /DELETE
 
 # Development
 

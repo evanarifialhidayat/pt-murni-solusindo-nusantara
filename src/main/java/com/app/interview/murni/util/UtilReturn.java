@@ -78,8 +78,9 @@ public class UtilReturn {
 
 
 	public static  ResponseEntity<?> returncontroller(String logik,UserLogin bodyparam,Integer id){
-		Long lo = userLoginRepo.countByEmail(bodyparam.getEmail());
+		
     	if(logik.equals(ParamPath.RETURN_LOGIN)) {
+    		Long lo = userLoginRepo.countByEmail(bodyparam.getEmail());
     		if(lo == 1){
     			UserLogin get = userLoginRepo.findByEmail(bodyparam.getEmail());
     			String idsalt = get.getPassword().substring(0, 9);

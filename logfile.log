@@ -4644,3 +4644,376 @@ java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
 2024-05-19 02:01:31.685  INFO 22499 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
 2024-05-19 02:01:32.924  INFO 22499 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 6.266 seconds (JVM running for 10419.445)
 2024-05-19 02:01:32.927  INFO 22499 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:08:15.393  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 24602 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:08:15.408  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:08:25.863  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 16.44 seconds (JVM running for 17.802)
+2024-05-19 02:08:25.872  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:08:46.099  WARN 24602 --- [http-nio-5005-exec-1] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:46.296  INFO 24602 --- [http-nio-5005-exec-1] c.a.i.murni.controller.UserController    : List avarage score data sukses selamat menikmati...[{"recid":75, "name":"Kevin", "score":"80", "emotion":"Happy", "created_string":"2020-02-20", "id":"75"}, {"recid":76, "name":"Josh", "score":"90", "emotion":"Sad", "created_string":"2020-02-20", "id":"76"}, {"recid":77, "name":"Kevin", "score":"85", "emotion":"Happy", "created_string":"2020-02-20", "id":"77"}, {"recid":78, "name":"Kevin", "score":"75", "emotion":"Sad", "created_string":"2020-02-20", "id":"78"}, {"recid":79, "name":"Josh", "score":"65", "emotion":"Angry", "created_string":"2020-02-20", "id":"79"}, {"recid":80, "name":"David", "score":"85", "emotion":"Happy", "created_string":"2020-02-21", "id":"80"}, {"recid":81, "name":"Josh", "score":"90", "emotion":"Sad", "created_string":"2020-02-21", "id":"81"}, {"recid":82, "name":"David", "score":"75", "emotion":"Sad", "created_string":"2020-02-21", "id":"82"}, {"recid":83, "name":"Josh", "score":"85", "emotion":"Sad", "created_string":"2020-02-21", "id":"83"}, {"recid":84, "name":"Josh", "score":"70", "emotion":"Happy", "created_string":"2020-02-21", "id":"84"}, {"recid":85, "name":"Kevin", "score":"80", "emotion":"Sad", "created_string":"2020-02-21", "id":"85"}, {"recid":86, "name":"Kevin", "score":"73", "emotion":"Sad", "created_string":"2020-02-22", "id":"86"}, {"recid":87, "name":"Kevin", "score":"75", "emotion":"Angry", "created_string":"2020-02-22", "id":"87"}, {"recid":88, "name":"David", "score":"82", "emotion":"Sad", "created_string":"2020-02-22", "id":"88"}, {"recid":89, "name":"David", "score":"65", "emotion":"Sad", "created_string":"2020-02-22", "id":"89"}]
+2024-05-19 02:08:47.160  WARN 24602 --- [http-nio-5005-exec-2] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.174  WARN 24602 --- [http-nio-5005-exec-3] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.179  WARN 24602 --- [http-nio-5005-exec-4] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.186  WARN 24602 --- [http-nio-5005-exec-5] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.210  WARN 24602 --- [http-nio-5005-exec-6] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.453  WARN 24602 --- [http-nio-5005-exec-7] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.453  WARN 24602 --- [http-nio-5005-exec-8] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.526  WARN 24602 --- [http-nio-5005-exec-9] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.526  WARN 24602 --- [http-nio-5005-exec-10] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.527  WARN 24602 --- [http-nio-5005-exec-6] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.538  WARN 24602 --- [http-nio-5005-exec-2] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.547  WARN 24602 --- [http-nio-5005-exec-3] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.558  WARN 24602 --- [http-nio-5005-exec-10] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.573  WARN 24602 --- [http-nio-5005-exec-3] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.573  WARN 24602 --- [http-nio-5005-exec-5] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:47.584  WARN 24602 --- [http-nio-5005-exec-7] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:08:48.108  WARN 24602 --- [http-nio-5005-exec-1] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:09:15.652  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 24602 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:09:15.656  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:09:17.381  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 6.797 seconds (JVM running for 69.321)
+2024-05-19 02:09:17.384  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:09:49.547  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 24602 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:09:49.555  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:09:51.084  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 6.623 seconds (JVM running for 103.026)
+2024-05-19 02:09:51.097  INFO 24602 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:52:59.903  INFO 25353 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 25353 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:52:59.907  INFO 25353 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:53:09.643 ERROR 25353 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 5005 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 5005 or configure this application to listen on another port.
+
+2024-05-19 02:53:49.720  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 25369 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:53:49.727  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:53:58.106  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 14.154 seconds (JVM running for 15.382)
+2024-05-19 02:53:58.114  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:54:14.561  WARN 25369 --- [http-nio-5005-exec-1] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:54:14.700 ERROR 25369 --- [http-nio-5005-exec-1] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException: Cannot invoke "com.app.interview.murni.model.UserLogin.getEmail()" because "bodyparam" is null] with root cause
+
+java.lang.NullPointerException: Cannot invoke "com.app.interview.murni.model.UserLogin.getEmail()" because "bodyparam" is null
+	at com.app.interview.murni.util.UtilReturn.returncontroller(UtilReturn.java:81) ~[classes/:na]
+	at com.app.interview.murni.controller.UserApiController.listitem(UserApiController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at com.app.interview.murni.services.token.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:61) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:141) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-05-19 02:55:48.546  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 25369 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:55:48.548  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:55:50.339  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 6.848 seconds (JVM running for 127.612)
+2024-05-19 02:55:50.346  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:56:19.883  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 25369 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:56:19.885  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:56:22.013  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 7.188 seconds (JVM running for 159.284)
+2024-05-19 02:56:22.017  INFO 25369 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:56:30.498  WARN 25369 --- [http-nio-5005-exec-2] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:56:30.519 ERROR 25369 --- [http-nio-5005-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	lo cannot be resolved to a variable
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	lo cannot be resolved to a variable
+
+	at com.app.interview.murni.util.UtilReturn.returncontroller(UtilReturn.java:83) ~[classes/:na]
+	at com.app.interview.murni.controller.UserApiController.listitem(UserApiController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at com.app.interview.murni.services.token.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:61) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:141) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-05-19 02:56:48.030  WARN 25369 --- [http-nio-5005-exec-4] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:56:48.034 ERROR 25369 --- [http-nio-5005-exec-4] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed; nested exception is java.lang.Error: Unresolved compilation problem: 
+	lo cannot be resolved to a variable
+] with root cause
+
+java.lang.Error: Unresolved compilation problem: 
+	lo cannot be resolved to a variable
+
+	at com.app.interview.murni.util.UtilReturn.returncontroller(UtilReturn.java:83) ~[classes/:na]
+	at com.app.interview.murni.controller.UserApiController.listitem(UserApiController.java:38) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:879) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:793) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:320) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:126) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:90) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:118) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:137) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:111) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:158) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at com.app.interview.murni.services.token.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:61) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:116) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:92) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:77) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:105) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:56) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:334) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:215) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:178) ~[spring-security-web-5.3.2.RELEASE.jar:5.3.2.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.session.web.http.SessionRepositoryFilter.doFilterInternal(SessionRepositoryFilter.java:141) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.springframework.session.web.http.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:82) ~[spring-session-core-2.3.0.RELEASE.jar:2.3.0.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.6.RELEASE.jar:5.2.6.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.35.jar:9.0.35]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[na:na]
+
+2024-05-19 02:57:21.936  INFO 25421 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 25421 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 02:57:21.968  INFO 25421 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 02:57:30.141  INFO 25421 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 13.919 seconds (JVM running for 15.107)
+2024-05-19 02:57:30.148  INFO 25421 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 02:57:41.633  WARN 25421 --- [http-nio-5005-exec-1] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 02:57:41.837  INFO 25421 --- [http-nio-5005-exec-1] com.app.interview.murni.util.UtilReturn  : List api data suksess...[{"recid":13, "age":"18", "email":"s@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"13"}, {"recid":14, "age":"18", "email":"evan@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"14"}]
+2024-05-19 03:00:37.704  WARN 25421 --- [http-nio-5005-exec-5] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:00:38.008 ERROR 25421 --- [http-nio-5005-exec-5] c.a.i.m.controller.UserApiController     : Silahkan patuhi validasi data api gagal...
+2024-05-19 03:00:55.088  WARN 25421 --- [http-nio-5005-exec-6] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:00:55.107 ERROR 25421 --- [http-nio-5005-exec-6] c.a.i.m.controller.UserApiController     : Silahkan patuhi validasi data api gagal...
+2024-05-19 03:01:10.447  WARN 25421 --- [http-nio-5005-exec-7] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:01:10.479 ERROR 25421 --- [http-nio-5005-exec-7] c.a.i.m.controller.UserApiController     : Silahkan patuhi validasi data api gagal...
+2024-05-19 03:01:22.950  WARN 25421 --- [http-nio-5005-exec-8] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:01:23.168  INFO 25421 --- [http-nio-5005-exec-8] com.app.interview.murni.util.UtilReturn  : Registrasi api data sukses...{"recid":93, "age":"18", "email":"evans@gmail.com", "password":"e45r2fhb039474376f56a171061fbbfd4c3379de2e0bb471f15695977e0701b6e5776dfe3", "token":"null", "id_seq":"93"}
+2024-05-19 03:01:59.812  WARN 25421 --- [http-nio-5005-exec-9] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:01:59.821 ERROR 25421 --- [http-nio-5005-exec-9] c.a.i.m.controller.UserApiController     : Silahkan patuhi validasi data api gagal...
+2024-05-19 03:02:29.853  WARN 25421 --- [http-nio-5005-exec-10] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:02:30.052  INFO 25421 --- [http-nio-5005-exec-10] com.app.interview.murni.util.UtilReturn  : Login dengan api sukses selamat menikmati...
+2024-05-19 03:02:58.298  WARN 25421 --- [http-nio-5005-exec-2] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 03:02:58.314  INFO 25421 --- [http-nio-5005-exec-2] com.app.interview.murni.util.UtilReturn  : List api data suksess...[{"recid":13, "age":"18", "email":"s@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"13"}, {"recid":14, "age":"18", "email":"evan@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"14"}, {"recid":93, "age":"18", "email":"evans@gmail.com", "password":"e45r2fhb039474376f56a171061fbbfd4c3379de2e0bb471f15695977e0701b6e5776dfe3", "token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJldmFuc0BnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjI1NDksImV4cCI6MTcxNjA4MDU0OX0.Xe2FbDNQFWuSlzhf4yGl4egJLX777IaWVnubeK4AlkA", "id_seq":"93"}]
+2024-05-19 03:04:12.570  INFO 25421 --- [http-nio-5005-exec-3] com.app.interview.murni.util.UtilReturn  : Update api data sukses...{"recid":93, "age":"19", "email":"evans@gmail.com", "password":"7ge96cdpo061aac64ac7b3afd85615588e9f06d2440f9726631802f7ef624ca6f71e44d23", "token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJldmFuc0BnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjI2NTIsImV4cCI6MTcxNjA4MDY1Mn0.aIQ45U9XUvNt7phnH-8KGXzRqsL7rimgqybp_V5VdGY", "id_seq":"93"}
+2024-05-19 03:04:55.884 ERROR 25421 --- [http-nio-5005-exec-5] c.a.i.m.services.token.JwtRequestFilter  : JWT signature does not match locally computed signature. JWT validity cannot be asserted and should not be trusted.
+2024-05-19 03:04:55.916 ERROR 25421 --- [http-nio-5005-exec-5] c.a.i.murni.conf.WebSecurityConfig       : Path unauthorized...
+2024-05-19 03:05:06.009 ERROR 25421 --- [http-nio-5005-exec-6] com.app.interview.murni.util.UtilReturn  : Deleted api data suksess...true
+2024-05-19 04:08:22.352  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 1677 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 04:08:22.357  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 04:08:31.364  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 14.924 seconds (JVM running for 16.222)
+2024-05-19 04:08:31.370  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....
+2024-05-19 04:10:28.231  WARN 1677 --- [http-nio-5005-exec-1] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 04:10:28.817 ERROR 1677 --- [http-nio-5005-exec-1] com.app.interview.murni.util.UtilReturn  : Login api ada masalah karena email dan password tidak terdaftar silahkan hubungi admin...
+2024-05-19 04:11:14.605  WARN 1677 --- [http-nio-5005-exec-3] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 04:11:14.800  INFO 1677 --- [http-nio-5005-exec-3] com.app.interview.murni.util.UtilReturn  : Registrasi api data sukses...{"recid":97, "age":"18", "email":"user3@gmail.com", "password":"udfh58uge97b3c8f0e0698555cc4921e50297fe1f8d3bf393acdb63757a2f09253ce9908f", "token":"null", "id_seq":"97"}
+2024-05-19 04:12:06.297  WARN 1677 --- [http-nio-5005-exec-4] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 04:12:06.476  INFO 1677 --- [http-nio-5005-exec-4] com.app.interview.murni.util.UtilReturn  : Login dengan api sukses selamat menikmati...
+2024-05-19 04:16:15.955  INFO 1677 --- [http-nio-5005-exec-7] com.app.interview.murni.util.UtilReturn  : Update api data sukses...{"recid":97, "age":"33", "email":"user3@gmail.com", "password":"7dn4nugq2ced571d2e3e7e39e6a0ce13656339199bc57431df37db36db52fa938ebfcf547", "token":"eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyM0BnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjY5NzUsImV4cCI6MTcxNjA4NDk3NX0.8PadeylDXW0bSIfbY2xnPBmzZpS8r3gGfaKKe30vNTU", "id_seq":"97"}
+2024-05-19 04:17:31.623 ERROR 1677 --- [http-nio-5005-exec-10] com.app.interview.murni.util.UtilReturn  : Deleted api data suksess...true
+2024-05-19 04:18:15.946  WARN 1677 --- [http-nio-5005-exec-2] c.a.i.m.services.token.JwtRequestFilter  : JWT Token does not begin with Bearer String
+2024-05-19 04:18:15.961  INFO 1677 --- [http-nio-5005-exec-2] com.app.interview.murni.util.UtilReturn  : List api data suksess...[{"recid":13, "age":"18", "email":"s@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"13"}, {"recid":14, "age":"18", "email":"evan@gmail.com", "password":"1in26ci21f74fea0acc43bb2ab07d5988a847a66bdf7b39d7350232d0839282aefeba75c7", "token":"null", "id_seq":"14"}]
+2024-05-19 04:19:33.510  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : Starting MainApplication on evaans-MacBook-Air.local with PID 1677 (/Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara/target/classes started by evaanarifialhidayat in /Users/evaanarifialhidayat/eclipse-workspace/pt-murni-solusindo-nusantara)
+2024-05-19 04:19:33.520  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : No active profile set, falling back to default profiles: default
+2024-05-19 04:19:36.262  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : Started MainApplication in 7.812 seconds (JVM running for 681.107)
+2024-05-19 04:19:36.269  INFO 1677 --- [restartedMain] com.app.interview.murni.MainApplication  : APLIKASI INTERVIEW PT MURNI SOLUSINDO NUSANTARA IS RUNING GOOD JOB.....

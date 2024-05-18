@@ -1,0 +1,100 @@
+{
+	"info": {
+		"_postman_id": "06137968-2772-452f-be9b-1dfcb7344619",
+		"name": "INTERVIEW",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "2876916"
+	},
+	"item": [
+		{
+			"name": "registrasi",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"user3@gmail.com\",\n    \"password\":\"admins\",\n    \"age\": 18\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5005/api/registrasi"
+			},
+			"response": []
+		},
+		{
+			"name": "list",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:5005/api/list"
+			},
+			"response": []
+		},
+		{
+			"name": "update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyM0BnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjY3MjYsImV4cCI6MTcxNjA4NDcyNn0.tcnIWHxjDm2-P1Trb3wnr0U3_fjUWBCylU70rr1Ypxk"
+					}
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"user3@gmail.com\",\n    \"password\":\"admins\",\n    \"age\":33\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5005/api/update/97"
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": {
+						"token": "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1c2VyM0BnbWFpbC5jb20iLCJpYXQiOjE3MTYwNjY5NzUsImV4cCI6MTcxNjA4NDk3NX0.8PadeylDXW0bSIfbY2xnPBmzZpS8r3gGfaKKe30vNTU"
+					}
+				},
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5005/api/delete/97"
+			},
+			"response": []
+		},
+		{
+			"name": "login",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"email\":\"user3@gmail.com\",\n    \"password\":\"admins\",\n    \"age\":18\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5005/api/login"
+			},
+			"response": []
+		}
+	]
+}
