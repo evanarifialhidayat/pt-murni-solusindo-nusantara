@@ -6,7 +6,6 @@
 
 Link : http://e-van.cloud:5005       
 
-<a href="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.27.30.png?raw=true"><img src="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.27.30.png?raw=true"/></a>
 <a href="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.34.19.png?raw=true"><img src="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.34.19.png?raw=true"/></a>
 <a href="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 03.53.52.png?raw=true"><img src="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 03.53.52.png?raw=true"/></a>
 <a href="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.35.30.png?raw=true"><img src="https://github.com/evanarifialhidayat/pt-murni-solusindo-nusantara/blob/main/Screen Shot 2024-05-19 at 02.35.30.png?raw=true"/></a>
