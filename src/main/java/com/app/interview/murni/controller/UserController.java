@@ -180,6 +180,15 @@ public class UserController {
     			model.addAttribute("avgname"+i, ""+avarage.getName()+" - "+avarage.getAvg());
     		}
     		
+    		
+    		List<Object[]> listParam3 = avarageMeanModusRepo.findAllModusEmotion();
+    		model.addAttribute("total_avarage", ""+listParam3.size());
+    		ListAvarageMeanModus modus;
+    		for(int i=0; i<listParam3.size(); i++){
+    			modus = (ListAvarageMeanModus) listParam2.get(i);
+    			model.addAttribute("modusemution"+i, ""+listParam3.get(i)[0].toString()+" - "+listParam3.get(i)[1].toString());
+    		}
+    		
             
     		List<Object[]> listParam4 = avarageMeanModusRepo.findAllAvarageScoreNameTanggal();
     		List listavaragescorenametanggal = new ArrayList<ListAvarageMeanModus>();
