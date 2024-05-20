@@ -21,7 +21,7 @@ public class UtilParam {
     {      
             Random r = new Random();
             String obj = "";
-            String param = "123456789abcdevghijklmnopqrstu";
+            String param = "123456789ABCDEVGHIJKLMNOPQRSTUFWXYZabcdefghijklmnopqrstuvwxyz";
                for (int i = 0; i < p; i++) {
                    obj += param.charAt(r.nextInt(param.length()));
                } 		
@@ -82,7 +82,7 @@ public class UtilParam {
     public static String getRandomIdSalt(int p) {
 		 Random r = new Random();
 		 String roomId = "";
-		 String url = "1234567890abcdefghijklmnopqrstu";
+		 String url = "123456789ABCDEVGHIJKLMNOPQRSTUFWXYZabcdefghijklmnopqrstuvwxyz";
 		    for (int i = 0; i < p; i++) {
 		    	roomId += url.charAt(r.nextInt(url.length()));
 		    } 		
